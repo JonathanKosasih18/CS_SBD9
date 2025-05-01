@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import Store from './pages/Store';
+import Home from './pages/Home';
 import Login from './pages/Login';
 import Register from './pages/Register';
 
@@ -8,8 +8,8 @@ export default function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Navigate to='/store' />} />
-          <Route path='/store' element={<Store />} />
+          <Route path='/' element={<Navigate to='/item' />} />
+          <Route path='/item' element={<Home />} />
           <Route path='/user/login' element={<Login />} />
           <Route path='/user/register' element={<Register />} />
         </Routes>

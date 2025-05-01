@@ -7,7 +7,7 @@ export default function Login() {
     return (
         <div id="main-page" className="flex flex-col min-h-screen max-w-screen bg-jk-black items-center justify-center">
             <header id="navbar" className="flex w-screen bg-jk-sky flex-row justify-between items-center fixed top-0 z-50">
-                <a id="left" href="/store" className="flex flex-row items-center justify-center m-4 hover:scale-110 transition-transform duration-200">
+                <a id="left" href="/item" className="flex flex-row items-center justify-center m-4 hover:scale-110 transition-transform duration-200">
                     <img src={logo} alt="logo" className="w-12 h-12 ml-4"/>
                     <h1 className="text-4xl font-bold text-jk-text-black pl-4 my-4">B-Shop</h1>
                 </a>

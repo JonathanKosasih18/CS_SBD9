@@ -6,7 +6,7 @@ import logo from "../assets/logo.png";
 export default function NavBar() {
     return (
         <header id="navbar" className="flex w-screen bg-jk-sky flex-row justify-between items-center fixed top-0 z-50">
-            <a id="left" href="/store" className="flex flex-row items-center justify-center m-4 hover:scale-110 transition-transform duration-200">
+            <a id="left" href="/item" className="flex flex-row items-center justify-center m-4 hover:scale-110 transition-transform duration-200">
                 <img src={logo} alt="logo" className="w-12 h-12 ml-4"/>
                 <h1 className="text-4xl font-bold text-jk-text-black pl-4 my-4">B-Shop</h1>
             </a>
